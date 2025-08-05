@@ -17,6 +17,8 @@ import com.cjc.app.repository.ProductRepository;
 
 @SpringBootApplication
 public class Application {
+             
+           int x=10;        
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
